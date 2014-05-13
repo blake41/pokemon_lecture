@@ -10,8 +10,8 @@ end
   
 class Tandem < Bicycle  
   def initialize(gears)  
-    super  
-    @seats = 2  
+    @seats = 2
+    super 
   end  
 end  
 t = Tandem.new(2)
