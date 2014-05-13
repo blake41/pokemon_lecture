@@ -22,12 +22,13 @@ class Squirtle
     @health += 25 if positive_x?      
   end
 
-  def positive_x?
-    xposition > 0
-  end
-
   def train
     @attack_strength = @attack_strength + 7
+  end
+
+private
+  def positive_x?
+    xposition > 0
   end
 
 end
