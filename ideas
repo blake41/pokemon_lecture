@@ -8,7 +8,7 @@ Once you learn inheritance you'll see it everywhere.  BE CAREFUL.  In general in
 
 Create an abstract class which describes common behavior and state/data for all things of this type.  
 
-Create sublclasses that you would like to have all the behavior of the superclass, AND additional behavior that is different.
+Create subclasses that you would like to have all the behavior of the superclass, AND additional behavior that is different.
 
 If you call the keyword super in a subclass it will call the same method in the superclass.
 If you call super with no arguments, it will pass along the arguments passed to that method. If you call super() it will not pass along any arguments.
