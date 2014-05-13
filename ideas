@@ -1,0 +1,6 @@
+Use inheritance when you have an "is a" relationship.
+The fundamental goal is code reuse. (DRY)
+Once you learn inheritance you'll see it everywhere.  BE CAREFUL.  In general inheritance is a bad pattern. Most things are not really well modeled by this relationship. Don't use inheritance just to dry your code.  Use composition.
+
+Ex.
+A car is a vehicle
